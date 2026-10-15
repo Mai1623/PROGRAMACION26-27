@@ -1,23 +1,25 @@
+/* Login: Escribe un programa que pida el nombre de usuario y si es correcto
+muestre “¡Bienvenido <usuario>!”. En otro caso no debe hacer nada.
+Un usuario será correcto si coincide con el valor establecido literalmente
+por el programador en
+el código. */
 
 /**
  *
- * @author Maitane Navarro
+ * @author 06_1DAW
  */
 import java.util.Scanner;
 
 public class ejercicio3 {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
-
-        String usuarioCorrecto = "Maitane";
-
+        final String usuarioCorrecto = "Maitane";
+    // Si el usuario coincide muestr el mensaje, si no, no lo muestra
         System.out.print("Introduce tu nombre de usuario: ");
-        String usuario = teclado.nextLine();
+        String usuario = "Maitane";
 
-        if (usuario.equals(usuarioCorrecto)) {
-            System.out.println("¡Bienvenido " + usuario);
+        if (usuario == usuarioCorrecto) {
+            System.out.println("¡Bienvenido " + usuario + "!");
         }
 
-        teclado.close();
     }
 }
