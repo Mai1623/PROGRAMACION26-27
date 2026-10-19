@@ -6,29 +6,33 @@ Equilátero: todos los lados iguales
 Isósceles: dos lados iguales
 Escaleno: ningún lado igual*/
 
-import java.util.Scanner; // Importamos Scanner para leer datos por teclado.
+import java.util.Scanner; 
 
-public class ejercicio10 { // Declaramos la clase principal del programa.
+public class ejercicio10 {
 
-    public static void main(String[] args) { // Método principal donde comienza la ejecución.
+    public static void main(String[] args) { 
 
-        Scanner teclado = new Scanner(System.in); // Creamos el Scanner para leer los datos.
+        Scanner teclado = new Scanner(System.in); 
 
-        System.out.println("Introduce el primer lado:"); // Pedimos el primer lado.
-        double lado1 = teclado.nextDouble(); // Leemos el primer lado y lo guardamos.
+        // Pedimos el primer lado y lo leemos
+        System.out.println("Introduce el primer lado:"); 
+        double lado1 = teclado.nextDouble(); 
 
-        System.out.println("Introduce el segundo lado:"); // Pedimos el segundo lado.
-        double lado2 = teclado.nextDouble(); // Leemos el segundo lado y lo guardamos.
+        // Pedimos el segundo lado y lo leemos
+        System.out.println("Introduce el segundo lado:"); 
+        double lado2 = teclado.nextDouble(); 
+        
+        // Pedimos el tercer lado y lo leemos
+        System.out.println("Introduce el tercer lado:"); 
+        double lado3 = teclado.nextDouble(); 
 
-        System.out.println("Introduce el tercer lado:"); // Pedimos el tercer lado.
-        double lado3 = teclado.nextDouble(); // Leemos el tercer lado y lo guardamos.
+        // Comprobar que todos los lados sean positivos.
+        if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) { 
+            System.out.println("Los lados deben ser mayores que cero.");  // Mostramos el error.
 
-        if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) { // Comprobamos que todos los lados sean positivos.
-            System.out.println("Los lados deben ser mayores que cero."); // Mostramos el error.
-
-        } else if (lado1 + lado2 > lado3 && // Comprobamos la primera desigualdad del triángulo.
-                   lado1 + lado3 > lado2 && // Comprobamos la segunda desigualdad del triángulo.
-                   lado2 + lado3 > lado1) { // Comprobamos la tercera desigualdad del triángulo.
+        } else if (lado1 + lado2 > lado3 && 
+                   lado1 + lado3 > lado2 && 
+                   lado2 + lado3 > lado1) { 
 
             if (lado1 == lado2 && lado2 == lado3) { // Comprobamos si los tres lados son iguales.
                 System.out.println("El triángulo es equilátero."); // Si lo son, es equilátero.
