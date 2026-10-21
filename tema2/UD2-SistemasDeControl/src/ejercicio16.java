@@ -29,7 +29,6 @@ public class ejercicio16 {
 
         // Creamos un bucle infinito que se repetirá hasta ejecutar break
         while (true) { 
-
             System.out.println("=== CAJERO AUTOMÁTICO ==="); 
             System.out.println("1. Consultar saldo"); 
             System.out.println("2. Retirar dinero"); 
@@ -41,33 +40,25 @@ public class ejercicio16 {
 
             // Comprueba si ha elegido la opción 1
             if (opcion == 1) { 
-
                 System.out.println("Mostrando saldo...");
 
             // Comprueba si ha elegido la opción 2
             } else if (opcion == 2) { 
-
                 System.out.println("Retirando dinero...");
 
             // Comprueba si ha elegido la opción 3
             } else if (opcion == 3) { 
-
-                System.out.println("Gracias por usar el cajero. ¡Adiós!");
+                System.out.println("Gracias por usar el cajero. ¡Aguuuur!");
             
             // Cerrar el bucle y terminar bucle
                 break;
             
             // Si no se ejecuta ninguna de las 3 opciones
             } else { 
-
                 System.out.println("Opción no válida. Inténtalo de nuevo."); 
 
             }
-
         }
-
-        teclado.close();
-
     }
 
 }
