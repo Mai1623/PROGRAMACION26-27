@@ -16,8 +16,58 @@ y coloca la palabra clave break; dentro de ese bloque condicional.
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane
  */
-public class ejercicio16 {
-    
+
+import java.util.Scanner; 
+
+public class ejercicio16 { 
+
+    public static void main(String[] args) { 
+
+        Scanner teclado = new Scanner(System.in); 
+
+        // Creamos un bucle infinito que se repetirá hasta ejecutar break
+        while (true) { 
+
+            System.out.println("=== CAJERO AUTOMÁTICO ==="); 
+            System.out.println("1. Consultar saldo"); 
+            System.out.println("2. Retirar dinero"); 
+            System.out.println("3. Salir"); 
+            System.out.print("Elige una opción: "); 
+
+            // Leemos el número por teclado
+            int opcion = teclado.nextInt(); 
+
+            // Comprueba si ha elegido la opción 1
+            if (opcion == 1) { 
+
+                System.out.println("Mostrando saldo...");
+
+            // Comprueba si ha elegido la opción 2
+            } else if (opcion == 2) { 
+
+                System.out.println("Retirando dinero...");
+
+            // Comprueba si ha elegido la opción 3
+            } else if (opcion == 3) { 
+
+                System.out.println("Gracias por usar el cajero. ¡Adiós!");
+            
+            // Cerrar el bucle y terminar bucle
+                break;
+            
+            // Si no se ejecuta ninguna de las 3 opciones
+            } else { 
+
+                System.out.println("Opción no válida. Inténtalo de nuevo."); 
+
+            }
+
+        }
+
+        teclado.close();
+
+    }
+
 }

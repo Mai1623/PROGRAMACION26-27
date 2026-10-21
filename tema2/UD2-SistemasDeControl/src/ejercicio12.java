@@ -1,5 +1,5 @@
 /*
-ejercicio 12: Contar hassta un numero:
+ejercicio 12: Contar hasta un numero:
 escribe un programa que pida al usuario un numero entero positivo y cuenta
 desde 1 hasta ese numero.
 ejemplo: si introduzco 3, el programa muestra 1, 2 y 3.
