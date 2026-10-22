@@ -34,11 +34,13 @@ public class ejercicio19 {
                 pinIntentos--;
                 System.out.println("Quedan " + pinIntentos + " intentos.");
                 
+                
             }
         }
             // Si el PIN es correcto muestra dos opciones
             if (pin == pinCorrecto) {
                 System.out.println("Acceso concedido.");
+                System.out.println("Has necesitado " + pin + " intentos.");
                 System.out.println("1. Hola  2. Salir");
                     int opcion = teclado.nextInt();
                         // Si selecciona la opción 1
