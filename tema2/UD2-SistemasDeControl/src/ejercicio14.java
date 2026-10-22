@@ -4,7 +4,7 @@ Contar hasta un numero usando "repetir hasta"
 
 /**
  *
- * @author Maitane
+ * @author Maitane Navarro
  */
 
 import java.util.Scanner; 

@@ -4,7 +4,7 @@ Suma de números: Calcular la suma de los números del 1 al 100.
 
 /**
  *
- * @author Maitane
+ * @author Maitane Navarro
  */
 
 

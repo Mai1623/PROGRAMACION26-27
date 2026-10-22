@@ -4,7 +4,7 @@ Suma inversa: realiza la suma desde el 100 al 1
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 
 public class ejercicio23 {
