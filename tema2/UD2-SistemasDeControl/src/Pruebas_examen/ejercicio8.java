@@ -16,12 +16,15 @@ public class ejercicio8 {
         // Pedir el número al usuario
         System.out.print("Introduce un número entero: ");
         int num = teclado.nextInt();
-        
         int suma = 0;
-        for (int i = 1; i <= num; i++){
-            suma = suma + i;
-        }
-        System.out.println("La suma es: " + suma);    
+        if (num > 0) {
+    for (int i = 1; i <= num; i++) {
+        suma = suma + i;
     }
-}
 
+    System.out.println("La suma es: " + suma);
+} else {
+    System.out.println("Introduce un número positivo.");
+}
+}
+}
