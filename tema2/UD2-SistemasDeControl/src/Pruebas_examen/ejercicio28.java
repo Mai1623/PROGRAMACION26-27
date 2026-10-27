@@ -13,7 +13,35 @@ package Pruebas_examen;
  *
  * @author 06_1DAW
  */
+
 import java.util.Scanner;
+
 public class ejercicio28 {
+    public static void main(String[] args) {
+
         Scanner teclado = new Scanner(System.in);
+
+        int positivos = 0;
+        int negativos = 0;
+        int ceros = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Introduce un número:");
+            int num = teclado.nextInt();
+
+            if (num < 0) {
+                negativos++;
+            } else if (num > 0) {
+                positivos++;
+            } else {
+                ceros++;
+            }
+        }
+
+        System.out.println("Positivos: " + positivos);
+        System.out.println("Negativos: " + negativos);
+        System.out.println("Ceros: " + ceros);
+
+        teclado.close();
+    }
 }
