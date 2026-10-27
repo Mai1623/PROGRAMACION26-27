@@ -22,7 +22,7 @@ public class ejercicio20 {
             int num = teclado.nextInt();
             suma +=num;
         }
-        int media = (int) (suma / 5.0);
+        double media = suma / 5.0;
         System.out.println("la media de los numeros anteriores es: " + media);
     }
 }

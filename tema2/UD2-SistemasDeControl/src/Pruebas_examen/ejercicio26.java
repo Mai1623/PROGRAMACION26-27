@@ -15,6 +15,34 @@ package Pruebas_examen;
  *
  * @author Maitane Navarro
  */
-public class ejercicio26 {
 
+import java.util.Scanner;
+
+public class ejercicio26 {
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.print("Introduce un número entero positivo: ");
+        int numero = teclado.nextInt();
+
+        int cifras = 0;
+        int suma = 0;
+        int invertido = 0;
+
+        while (numero > 0) {
+            int cifra = numero % 10;
+            cifras++;
+            suma = suma + cifra;
+            invertido = invertido * 10 + cifra;
+
+            numero = numero / 10;
+        }
+
+        System.out.println("Número de cifras: " + cifras);
+        System.out.println("Suma de las cifras: " + suma);
+        System.out.println("Número al revés: " + invertido);
+
+        teclado.close();
+    }
 }

@@ -10,21 +10,31 @@ package Pruebas_examen;
  *
  * @author Maitane Navarro
  */
+
 import java.util.Scanner;
+
 public class ejercicio21 {
     public static void main(String[] args) {
+
         Scanner teclado = new Scanner(System.in);
+
         int pares = 0;
         int impares = 0;
-        for (int i = 1; i<=10; i++) {
+
+        for (int i = 1; i <= 10; i++) {
             System.out.println("Introduce un numero: ");
             int num = teclado.nextInt();
-            if (num % 2 == 0){
-                System.out.println("Son pares: " + pares);
+
+            if (num % 2 == 0) {
+                pares++;
             } else {
-                System.out.println("Son impares " + impares);
+                impares++;
             }
         }
-        
+
+        System.out.println("Cantidad de pares: " + pares);
+        System.out.println("Cantidad de impares: " + impares);
+
+        teclado.close();
     }
 }

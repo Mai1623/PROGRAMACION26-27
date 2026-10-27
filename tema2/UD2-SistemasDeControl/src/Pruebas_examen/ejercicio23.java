@@ -10,6 +10,38 @@ package Pruebas_examen;
  *
  * @author Maitane Navarro
  */
-public class ejercicio23 {
 
+import java.util.Scanner;
+
+public class ejercicio23 {
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        int secreto = 12;
+        int intento = 0;
+        int contador = 0;
+
+        while (contador < 5 && intento != secreto) {
+
+            System.out.println("Adivina el número entre 1 y 20:");
+            intento = teclado.nextInt();
+
+            contador++;
+
+            if (intento == secreto) {
+                System.out.println("¡Felicidades! Has acertado.");
+            } else if (intento < secreto) {
+                System.out.println("El número secreto es mayor.");
+            } else {
+                System.out.println("El número secreto es menor.");
+            }
+        }
+
+        if (intento != secreto) {
+            System.out.println("Has agotado los cinco intentos.");
+        }
+
+        teclado.close();
+    }
 }

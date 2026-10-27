@@ -15,38 +15,56 @@ package Pruebas_examen;
  *
  * @author Maitane Navarro
  */
+
 import java.util.Scanner;
+
 public class ejercicio25 {
     public static void main(String[] args) {
+
         Scanner teclado = new Scanner(System.in);
-        System.out.println("1. Saludar");
-        System.out.println("2. Mostrar los numeros del 1 al 10");
-        System.out.println("3. Calcular el cuadrado de un numero");
-        System.out.println("4. Salir");
-        System.out.println("Elige una opcion: ");
-        
+        int opcion;
+
+        do {
+            System.out.println("\n===== MENÚ =====");
+            System.out.println("1. Saludar.");
+            System.out.println("2. Mostrar los números del 1 al 10.");
+            System.out.println("3. Calcular el cuadrado de un número.");
+            System.out.println("4. Salir.");
+
+            System.out.print("Elige una opción: ");
+            opcion = teclado.nextInt();
+
             switch (opcion) {
-            case 1:
-                   System.out.prinln("Hola!")
-                break;
 
-            case 2:
-                // Acción de la opción 2
-                break;
+                case 1:
+                    System.out.println("¡Hola! Bienvenido al programa.");
+                    break;
 
-            case 3:
-                // Acción de la opción 3
-                break;
+                case 2:
+                    for (int i = 1; i <= 10; i++) {
+                        System.out.println(i);
+                    }
+                    break;
 
-            case 4:
-                // Acción de la opción 4
-                break;
+                case 3:
+                    System.out.print("Introduce un número: ");
+                    double numero = teclado.nextDouble();
 
-            default:
-                // Opción no válida
-        }
-            
-        }
+                    double cuadrado = numero * numero;
+
+                    System.out.println("El cuadrado es: " + cuadrado);
+                    break;
+
+                case 4:
+                    System.out.println("Saliendo del programa...");
+                    break;
+
+                default:
+                    System.out.println(
+                        "Opción no válida. Inténtalo de nuevo."
+                    );
+            }
+
+        } while (opcion != 4);
     }
-
 }
