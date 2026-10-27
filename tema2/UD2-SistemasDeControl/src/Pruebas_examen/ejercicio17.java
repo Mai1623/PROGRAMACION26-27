@@ -10,6 +10,29 @@ package Pruebas_examen;
  *
  * @author Maitane Navarro
  */
-public class ejercicio17 {
+import java.util.Scanner;
 
+public class ejercicio17 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int num = 0;
+        int num2 = 0;
+            System.out.println("Introduce un numero: ");
+            num = teclado.nextInt();
+            
+            System.out.println("Introduce otro numero: ");
+            num2 = teclado.nextInt();
+            
+             if (num2 != 0) {
+            if (num % num2 == 0) {
+                System.out.println("El primer número es múltiplo del segundo.");
+            } else {
+                System.out.println("El primer número no es múltiplo del segundo.");
+            }
+        } else {
+            System.out.println("Error: el segundo número no puede ser cero.");
+        }
+            
+    }
 }
+
