@@ -12,20 +12,20 @@ import java.util.Scanner;
 public class ejercicio28 {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
         int numero;
         int suma = 0;
         int contador = 0;
 
         System.out.println("Introduce números (0 para terminar):");
-        numero = sc.nextInt();
+        numero = teclado.nextInt();
 
         while (numero != 0) {
             suma = suma + numero;
             contador++;
 
-            numero = sc.nextInt();
+            numero = teclado.nextInt();
         }
 
         if (contador > 0) {
@@ -34,8 +34,6 @@ public class ejercicio28 {
         } else {
             System.out.println("No has introducido números.");
         }
-
-        sc.close();
     }
 }
 

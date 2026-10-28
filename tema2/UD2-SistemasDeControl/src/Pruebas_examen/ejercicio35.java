@@ -1,3 +1,5 @@
+package Pruebas_examen;
+
 /*
 Crea un menú que se repita hasta que el usuario decida salir:
 

@@ -1,3 +1,5 @@
+package Pruebas_examen;
+
 /*
 Crea un juego que genere un número secreto aleatorio entre 1 y 100. El usuario debe intentar adivinarlo y el programa indicará si el número secreto es mayor o menor. Cuando acierte, mostrará el número de intentos realizados.
 Por ejemplo:

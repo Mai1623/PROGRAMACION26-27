@@ -1,57 +1,46 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+a Escribe el código para este diagrama. 
+    ¿Qué hace el programa?
+
+b Escribe un flujograma para este pseudocódigo. ¿Qué hace el programa?
+*/
 
 /**
  *
  * @author Maitane
  */
 
+
+ // Importamos Scanner para poder leer datos por teclado.
 import java.util.Scanner;
 
-// Creamos la clase principal del programa.
+// Creamos la clase principal.
 public class ejercicio261 {
 
-    // Este es el método principal, donde comienza la ejecución.
     public static void main(String[] args) {
-
-        // Creamos un Scanner para leer los datos que introduce el usuario.
         Scanner teclado = new Scanner(System.in);
 
-        // Mostramos un mensaje para pedir el número.
+        // Pedimos al usuario que introduzca un número y lo guardamos.
         System.out.print("Ingrese el numero: ");
+        int a = teclado.nextInt();
 
-        // Leemos el número introducido y lo guardamos en la variable N.
-        int N = teclado.nextInt();
-
-        // Mostramos un mensaje para pedir el divisor.
+        // Pedimos al usuario que introduzca el divisor y lo guardamos.
         System.out.print("Ingrese el divisor: ");
+        int b = teclado.nextInt();
 
-        // Leemos el divisor introducido y lo guardamos en la variable M.
-        int M = teclado.nextInt();
-
-        // Comprobamos que el divisor no sea cero para evitar un error.
-        if (M == 0) {
-
-            // Informamos al usuario de que no se puede dividir entre cero.
+        // Comprobamos si el divisor es cero.
+        if (b == 0) {
+            // Mostramos un mensaje si el divisor es cero.
             System.out.println("El divisor no puede ser cero.");
-
-        // Si el divisor no es cero, comprobamos si la división es exacta.
-        } else if (N % M == 0) {
-
-            // Si el resto es cero, M es divisor exacto de N.
-            System.out.println(M + " es divisor exacto de " + N + ".");
-
-        // Si el resto no es cero, la división no es exacta.
+        // Comprobamos si la división es exacta.
+        } else if (a % b == 0) {
+            // Mostramos que el divisor es exacto.
+            System.out.println(b + " es divisor exacto de " + a + ".");
+        // Si no se cumple ninguna condición anterior, la división no es exacta.
         } else {
-
-            // Mostramos el resto de dividir N entre M.
-            System.out.println("El resto de dividir " + N + " por " + M
-                    + " es: " + (N % M));
+            // Mostramos el resto de la división.
+            System.out.println("El resto de dividir " + a + " por " + b
+                    + " es: " + (a % b));
         }
-
-        // Cerramos el Scanner porque ya no necesitamos leer más datos.
-        teclado.close();
     }
 }
