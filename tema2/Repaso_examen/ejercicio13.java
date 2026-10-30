@@ -12,31 +12,24 @@ import java.util.Scanner;
  *
  * @author Maitane Navarro
  */
-public class ejercicio13 {
+import java.util.Scanner;
 
-    // Método principal donde comienza la ejecución del programa.
+public class ejercicio13 {
     public static void main(String[] args) {
-        int factorial = 1; // El factorial es la multiplicación de los números
-        
-        int numIntroducido;
-        
-        // Pedir el dato al usuario
-        
         Scanner entrada = new Scanner(System.in);
-        
-        System.out.println("Introduce el número para calcular el factorial:");
-        
-        numIntroducido = entrada.nextInt();
-        
-        
-        // Cálculo
-        
-        for(int i=numIntroducido; i>1; i--) {
-            
-            factorial *= i;
-            
+
+        int numero = 1;
+        int suma = 0;
+
+        while (numero != 0) {
+            System.out.print("Introduce un número (0 para terminar): ");
+            numero = entrada.nextInt();
+
+            suma = suma + numero;
         }
-        
-        System.out.println("El factorial de " + numIntroducido + " es " + factorial);
-}
+
+        System.out.println("La suma total es: " + suma);
+
+        entrada.close();
+    }
 }
