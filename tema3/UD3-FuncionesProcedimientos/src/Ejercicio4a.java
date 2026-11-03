@@ -1,11 +1,11 @@
 
 /*
 Calculadora modular
-crear una clase con metodos para:
-- sumar
-- restar
-- multiplicar
-- dividir
+    crear una clase con metodos para:
+    - sumar
+    - restar
+    - multiplicar
+    - dividir
 
 para la division, se debe decidir como tratar el divisor cero.
 */
