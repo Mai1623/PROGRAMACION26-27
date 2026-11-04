@@ -17,45 +17,45 @@ import java.util.Scanner;
 public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        // Pedimos el primer número
-        System.out.print("Introduce el primer número: ");
+        // Pedir el primer numero
+        System.out.print("Mete el primer numero: ");
         int num1 = teclado.nextInt();
-        // Pedimos el segundo número.
-        System.out.print("Introduce el segundo número: ");
+        // Pedir el segundo numero.
+        System.out.print("Mete el segundo numero: ");
         int num2 = teclado.nextInt();
-        // Mostramos la suma utilizando el método sumar
+        // Mostrar la suma utilizando el metodo sumar
         System.out.println("Suma: " + sumar(num1, num2));
-        // Mostramos la resta utilizando el método restar
+        // Mostrar la resta utilizando el metodo restar
         System.out.println("Resta: " + restar(num1, num2));
-        // Mostramos la multiplicación utilizando el método multiplicar
-        System.out.println("Multiplicación: " + multiplicar(num1, num2));
-        // Comprobamos que el segundo número no sea cero
+        // Mostrar la multiplicacion utilizando el metodo multiplicar
+        System.out.println("Multiplicacion: " + multiplicar(num1, num2));
+        // Comprobar que el segundo numero no sea cero
         if (num2 != 0) {
-            // Mostramos la división utilizando el método dividir
-            System.out.println("División: " + dividir(num1, num2));
-        // Si el segundo número es cero, mostramos un mensaje de error
+            // Mostrar la division utilizando el metodo dividir
+           System.out.println("Division: " + dividir(num1, num2));
+        // Si el segundo numero es cero, mostrar un mensaje de error
         } else {
             System.out.println("No se puede dividir entre cero.");
         }
     }
-    // Método que recibe dos números y devuelve su suma
+    // metodo que recibe dos números y devuelve su suma
     public static int sumar(int a, int b) {
-        // Devolvemos la suma de los dos números
+        // Devolver la suma de los dos números
         return a + b;
     }
-    // Método que recibe dos números y devuelve su resta
+    // metodo que recibe dos numeros y devuelve su resta
     public static int restar(int a, int b) {
         // Devolvemos la resta de los dos números
         return a - b;
     }
-    // Método que recibe dos números y devuelve su multiplicación
+    // metodo que recibe dos numeros y devuelve su multiplicación
     public static int multiplicar(int a, int b) {
         // Devolvemos la multiplicación de los dos números
         return a * b;
     }
-    // Método que recibe dos números y devuelve su división entera
+    // metodo que recibe dos numeros y devuelve su división entera
     public static int dividir(int a, int b) {
-        // Devolvemos el resultado de dividir el primer número entre el segundo
+        // Devolvemos el resultado de dividir el primer numero entre el segundo
         return a / b;
     }
 }
