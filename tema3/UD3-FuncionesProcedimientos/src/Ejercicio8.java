@@ -1,12 +1,17 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+Generación de numeros aleatorios
+"Math.random() devuelve un numero decimal comprendido entre 0.0 (incluido) y 1.0 (excluido).
+
+Ejercicio 8 
+Realiza una funcion que genere un numero aleatorio entre 1 y 10.
+
+*/
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
+
 public class Ejercicio8 {
     
 }
