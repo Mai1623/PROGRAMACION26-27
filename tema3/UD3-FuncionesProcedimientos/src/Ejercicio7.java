@@ -17,8 +17,6 @@ Si la función no está incluida por defecto en el lenguaje, importa el módulo 
 import java.util.Scanner;
 
 public class Ejercicio7 {
-
-    // Creamos el Scanner para introducir datos por teclado
     static Scanner teclado = new Scanner(System.in);
 
     // Metodo para sumar dos numeros

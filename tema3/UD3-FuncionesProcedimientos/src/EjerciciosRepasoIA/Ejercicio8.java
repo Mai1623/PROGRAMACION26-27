@@ -24,7 +24,7 @@ package EjerciciosRepasoIA;
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio8 {
     
