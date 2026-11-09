@@ -13,8 +13,38 @@ package EjerciciosRepasoIA;
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
+
+
+import java.util.Scanner;
+
 public class Ejercicio2 {
-    
+
+    // Creamos el Scanner para leer datos por teclado
+    static Scanner teclado = new Scanner(System.in);
+
+    // Metodo para saludar al usuario
+    public static void saludar(String nombre) {
+
+        // Mostramos un mensaje de bienvenida
+        System.out.println("Bienvenido " + nombre);
+    }
+
+    // Metodo principal del programa
+    public static void main(String[] args) {
+
+        // Pedimos el nombre al usuario
+        System.out.println("Introduce tu nombre:");
+
+        // Guardamos el nombre introducido
+        String nombre = teclado.nextLine();
+
+        // Llamamos al metodo saludar
+        saludar(nombre);
+
+        // Cerramos el Scanner
+        teclado.close();
+    }
 }
+
