@@ -20,8 +20,8 @@ public class ejercicio7 {
         
        if (num % 2 == 0){
            System.out.println("El numero " + num + " es par.");
-       }else
+       } else{
            System.out.println("El numero " + num + " es impar." );
     }
-
+    }
 }

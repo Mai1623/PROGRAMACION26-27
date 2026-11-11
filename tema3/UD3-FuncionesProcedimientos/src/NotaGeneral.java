@@ -12,17 +12,17 @@
  */
 
 public class NotaGeneral {
-public static boolean esPar(int numero) {
+    public static boolean esPar(int numero) {
 
-    // comprobar si el resto de dividir es 0 y si es cierto, devuelve true
-    if (numero % 2 == 0) {
-        return true;
+        // comprobar si el resto de dividir es 0 y si es cierto, devuelve true
+        if (numero % 2 == 0) {
+            return true;
 
-    } else {
-        // si no lo cumple, falso
-        return false;
+        } else {
+            // si no lo cumple, falso
+            return false;
+        }
     }
-}
     public static void main(String[] args) {
 
         // recorrer los numeros del 1 al 10
