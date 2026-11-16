@@ -12,7 +12,7 @@ Ampliación: mostrar todas las posiciones en las que aparece el número, no sola
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
 public class Ejercicio13 {
     

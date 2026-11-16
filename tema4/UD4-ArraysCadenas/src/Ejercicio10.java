@@ -12,7 +12,7 @@ No basta con mostrar los elementos en orden inverso: debes construir un segundo 
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
 public class Ejercicio10 {
     

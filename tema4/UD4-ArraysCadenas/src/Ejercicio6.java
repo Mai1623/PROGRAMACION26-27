@@ -12,7 +12,7 @@ El programa debe:
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
 
 public class Ejercicio6 {

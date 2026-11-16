@@ -16,7 +16,7 @@ Desarrolla un programa que:
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
 
 import java.util.Scanner;

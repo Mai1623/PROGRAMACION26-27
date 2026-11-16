@@ -15,7 +15,7 @@ Ampliación: solicitar el número por teclado utilizando Scanner.
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
 public class Ejercicio12 {
     

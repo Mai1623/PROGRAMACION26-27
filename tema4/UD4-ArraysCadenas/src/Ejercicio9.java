@@ -15,7 +15,7 @@ Comprueba que la suma de todas las categorías coincide con el número de alumno
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
 public class Ejercicio9 {
     

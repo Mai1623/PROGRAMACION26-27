@@ -13,7 +13,7 @@ Puedes utilizar bucles anidados.
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
 public class Ejercicio11 {
     
