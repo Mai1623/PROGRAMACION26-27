@@ -24,12 +24,12 @@ public class Ejercicio5 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Introduce el tamaño del array:");
-        int tamaño = teclado.nextInt();
+        int tamano = teclado.nextInt();
 
-        int[] numeros = new int[tamaño];
+        int[] numeros = new int[tamano];
 
         // Introducir los números
-        for (int i = 0; i < tamaño; i++) {
+        for (int i = 0; i < tamano; i++) {
             System.out.println("Introduce un número:");
             numeros[i] = teclado.nextInt();
         }
@@ -39,7 +39,7 @@ public class Ejercicio5 {
         int posicion = teclado.nextInt();
 
         // Comprobar si la posición es válida
-        if (posicion >= 0 && posicion < tamaño) {
+        if (posicion >= 0 && posicion < tamano) {
             System.out.println("El valor es: " + numeros[posicion]);
         } else {
             System.out.println("La posición no es válida");
