@@ -8,14 +8,42 @@ Crea un programa que:
     Solicite una posición.
     Muestre el valor almacenado en dicha posición.
     Controle que la posición sea válida.
-
-
 */
 
 /**
  *
  * @author Maitane Navarro
  */
+
+import java.util.Scanner;
+
 public class Ejercicio5 {
-    
+
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Introduce el tamaño del array:");
+        int tamaño = teclado.nextInt();
+
+        int[] numeros = new int[tamaño];
+
+        // Introducir los números
+        for (int i = 0; i < tamaño; i++) {
+            System.out.println("Introduce un número:");
+            numeros[i] = teclado.nextInt();
+        }
+
+        // Pedir una posición
+        System.out.println("Introduce una posición:");
+        int posicion = teclado.nextInt();
+
+        // Comprobar si la posición es válida
+        if (posicion >= 0 && posicion < tamaño) {
+            System.out.println("El valor es: " + numeros[posicion]);
+        } else {
+            System.out.println("La posición no es válida");
+        }
+
+    }
 }
