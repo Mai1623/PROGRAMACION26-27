@@ -16,7 +16,7 @@ Ampliación: crea un método que reciba el array y devuelva otro array con únic
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio19 {
     

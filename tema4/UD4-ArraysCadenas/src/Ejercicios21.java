@@ -21,7 +21,7 @@ Ampliación: crear un método que reciba la matriz y el número de alumno, y dev
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicios21 {
     

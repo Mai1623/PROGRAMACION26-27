@@ -21,7 +21,7 @@ Ampliación: calcular la suma de cada fila por separado.
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio20 {
     
