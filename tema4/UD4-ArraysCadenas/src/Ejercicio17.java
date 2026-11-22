@@ -10,9 +10,6 @@ Crea una clase OperacionesArray con los siguientes métodos estáticos:
     Desde main, crea un array de números y llama a todos los métodos.
 Ampliación: añade un método que reciba un array y un valor, y devuelva la posición de su primera aparición. Si no existe, devolverá -1.
 
-
-*/
-
 /**
  *
  * @author 06_1DAW
@@ -90,26 +87,14 @@ public class Ejercicio17 {
         // Si no existe, devolvemos -1
         return -1;
         }
+public static void main(String[] args) {
+    int[] numeros = {2, 4, 6, 8, 10};
+
+    mostrar(numeros);
+    System.out.println("Suma: " + sumar(numeros));
+    System.out.println("Media: " + calcularMedia(numeros));
+    System.out.println("Maximo: " + obtenerMaximo(numeros));
+    System.out.println("Pares: " + contarPares(numeros));
+    System.out.println("Posicion: " + buscar(numeros, 6));
 }
-
-// Clase principal del programa
-class Main {
-
-    // Método principal
-    public static void main(String[] args) {
-        // Creamos un array de números
-        int[] numeros = {2, 4, 6, 8, 10};
-        // Mostramos los números
-        Ejercicio17.mostrar(numeros);
-        // Mostramos la suma
-        System.out.println("Suma: " + Ejercicio17.sumar(numeros));
-        // Mostramos la media
-        System.out.println("Media: " + Ejercicio17.calcularMedia(numeros));
-        // Mostramos el número máximo
-        System.out.println("Maximo: " + Ejercicio17.obtenerMaximo(numeros));
-        // Mostramos cuántos pares hay
-        System.out.println("Pares: " + Ejercicio17.contarPares(numeros));
-        // Buscamos el número 6 y mostramos su posición
-        System.out.println("Posicion: " + Ejercicio17.buscar(numeros, 6));
-    }
 }
