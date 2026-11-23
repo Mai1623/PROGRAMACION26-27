@@ -7,8 +7,6 @@ Primer apellido: García
 Segundo apellido: López
 
 Iniciales: AGL
-Ampliación: permite que el usuario introduzca los datos con distintas combinaciones de mayúsculas y minúsculas y muestra las iniciales siempre en mayúsculas.
-
 */
 
 /**

@@ -1,3 +1,5 @@
+package EjerciciosAmpliados;
+
 /*
 Métodos que modifican arrays
 Crea una clase ModificadorArray con estos métodos:

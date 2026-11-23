@@ -1,3 +1,5 @@
+package EjerciciosAmpliados;
+
 /*
 Crea un programa que almacene los siguientes números:
     int[] numeros = {12, 5, 8, 21, 4, 16, 9};

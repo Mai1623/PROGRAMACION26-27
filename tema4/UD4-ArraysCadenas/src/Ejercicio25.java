@@ -5,8 +5,6 @@ Solicita un nombre de usuario y comprueba:
     Que tenga al menos 5 caracteres.
     Que no supere los 15 caracteres.
 Muestra los resultados de las comprobaciones.
-Ampliación: comprueba que el nombre de usuario no contenga espacios.
- 
 */
 
 /**

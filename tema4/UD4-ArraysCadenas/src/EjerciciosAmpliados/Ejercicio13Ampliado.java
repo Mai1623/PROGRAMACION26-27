@@ -1,3 +1,5 @@
+package EjerciciosAmpliados;
+
 /*
 Utilizando el mismo array de la actividad anterior, modifica el programa para
 que muestre la posición en la que se encuentra el número buscado.

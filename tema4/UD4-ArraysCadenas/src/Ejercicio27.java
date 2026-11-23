@@ -14,7 +14,6 @@ Palabra: Java
 Posición: 18
 ¿Comienza por ella? false
 ¿Termina por ella? true
-Ampliación: permitir que la búsqueda no distinga entre mayúsculas y minúsculas.
 */
 
 /**

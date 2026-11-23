@@ -1,3 +1,5 @@
+package EjerciciosAmpliados;
+
 /*
 Disponemos del siguiente array:
 int[] numeros = {2, 5, 2, 8, 2, 9, 5, 2};

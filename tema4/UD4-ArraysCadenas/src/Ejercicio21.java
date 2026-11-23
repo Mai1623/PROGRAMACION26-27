@@ -12,7 +12,6 @@ Mostrar todas las notas, indicando el alumno y la evaluación.
 Calcular la media de cada alumno.
 Calcular la media de cada evaluación.
 Mostrar la nota más alta de toda la matriz.
-Ampliación: crear un método que reciba la matriz y el número de alumno, y devuelva la media de sus notas.
 */
 
 /**

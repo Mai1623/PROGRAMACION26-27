@@ -1,5 +1,4 @@
 /*
- 
 Primeros pasos con matrices
 Declara una matriz de 3 filas y 4 columnas con valores enteros.
 Realiza las siguientes operaciones:
@@ -14,9 +13,6 @@ int[][] numeros = {
     {1, 3, 5, 7},
     {10, 20, 30, 40}
 };
-Ampliación: calcular la suma de cada fila por separado.
-
-
 */
 
 /**
