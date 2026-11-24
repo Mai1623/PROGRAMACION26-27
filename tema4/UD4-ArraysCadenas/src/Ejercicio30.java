@@ -6,7 +6,6 @@ Solicita el nombre de un archivo y comprueba si tiene alguna de estas extensione
     .png
     .txt
 El programa debe mostrar el tipo de archivo o indicar que la extensión no está permitida.
-Ampliación: hacer que la comprobación funcione independientemente de las mayúsculas y minúsculas.
 */
 
 /**
