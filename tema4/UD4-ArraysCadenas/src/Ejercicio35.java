@@ -13,7 +13,7 @@ El programa debe construir la cadena invertida y compararla con la original.
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio35 {
     

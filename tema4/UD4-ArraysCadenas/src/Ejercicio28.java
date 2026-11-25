@@ -10,7 +10,7 @@ Antes de utilizar substring(), comprueba que:
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 
 import java.util.Scanner;

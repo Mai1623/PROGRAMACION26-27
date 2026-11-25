@@ -10,7 +10,7 @@ El programa debe mostrar el tipo de archivo o indicar que la extensión no está
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio30 {
     

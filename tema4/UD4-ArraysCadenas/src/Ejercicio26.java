@@ -11,7 +11,7 @@ Solicita el nombre y los dos apellidos de una persona y muestra sus iniciales.
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 
 import java.util.Scanner;

@@ -10,7 +10,7 @@ Después, muestra el número total de caracteres.
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 import java.util.Scanner;
 public class Ejercicio23 {

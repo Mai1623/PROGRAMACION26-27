@@ -5,7 +5,7 @@
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 class posicion {
     

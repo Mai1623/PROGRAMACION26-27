@@ -55,7 +55,7 @@ Contiene carácter especial permitido    .*[!@#$%].*
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio38 {
     

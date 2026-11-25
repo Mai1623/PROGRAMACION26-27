@@ -16,7 +16,7 @@ Mostrar la nota más alta de toda la matriz.
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio21 {
     

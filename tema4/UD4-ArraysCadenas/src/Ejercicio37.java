@@ -9,7 +9,7 @@ Cada código debe cumplir las siguientes reglas:
     No puede contener ningún otro carácter.
     Se debe comprobar que la cadena completa cumple el formato.
 Ejemplos:
-    Código      Resultado
+    @author Maitane Navarro      Resultado
     AB1234      Válido
     XY0001      Válido
     A12345      No válido
@@ -29,7 +29,7 @@ Pista
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 public class Ejercicio37 {
     

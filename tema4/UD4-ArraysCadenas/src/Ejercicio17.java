@@ -12,7 +12,7 @@ Ampliación: añade un método que reciba un array y un valor, y devuelva la pos
 
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro
  */
 
 
