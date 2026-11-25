@@ -15,8 +15,7 @@ Ejemplo:
     Primera posición: 5
     Última posición: 7
 Ampliación: mostrar todas las posiciones donde aparece el carácter.
-*/
-
+ */
 package EjerciciosAmpliados;
 
 /**
@@ -24,5 +23,5 @@ package EjerciciosAmpliados;
  * @author 06_1DAW
  */
 public class Ejercicioo34Ampliado {
-    
+
 }
