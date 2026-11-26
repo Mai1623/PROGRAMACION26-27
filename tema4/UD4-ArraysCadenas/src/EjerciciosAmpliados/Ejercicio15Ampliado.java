@@ -9,12 +9,11 @@ Crea un programa que permita:
     Buscar si existe algún alumno con un 10.
     Mostrar cuántos alumnos han obtenido una nota determinada.
 Ampliación: mostrar la primera y última posición en la que aparece la nota más alta.
-*/
-
+ */
 /**
  *
  * @author mai_n
  */
 public class Ejercicio15Ampliado {
-    
+
 }

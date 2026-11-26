@@ -1,3 +1,5 @@
+package EjerciciosAmpliados;
+
 /*
 Primeros pasos con matrices
 Declara una matriz de 3 filas y 4 columnas con valores enteros.
@@ -16,12 +18,11 @@ int[][] numeros = {
     {10, 20, 30, 40}
 };
 Ampliación: calcular la suma de cada fila por separado.
-*/
-
+ */
 /**
  *
  * @author mai_n
  */
 public class Ejercicio20Ampliado {
-    
+
 }

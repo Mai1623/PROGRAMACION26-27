@@ -14,8 +14,7 @@ Segunda palabra: JAVA
 ¿Son iguales ignorando mayúsculas? true
 ¿Tienen la misma longitud? true
 Ampliación: comprueba si ambas palabras empiezan por el mismo carácter.
-*/
-
+ */
 /**
  *
  * @author mai_n
@@ -23,6 +22,7 @@ Ampliación: comprueba si ambas palabras empiezan por el mismo carácter.
 import java.util.Scanner;
 
 public class Ejercicio24Ampliado {
+
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
@@ -43,7 +43,7 @@ public class Ejercicio24Ampliado {
 
         // Comprobar si tienen la misma longitud
         System.out.println("¿Tienen la misma longitud? " + (pal1.length() == pal2.length()));
-        
+
         // Comrpobar si empiezan por el mismo caracter
         System.out.println("¿Empiezan por el mismo carácter? " + (pal1.charAt(0) == pal2.charAt(0)));
     }

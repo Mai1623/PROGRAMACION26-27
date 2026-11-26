@@ -10,9 +10,7 @@ Número buscado: 21
 El número se encuentra en la posición 3.
 Ampliación: mostrar todas las posiciones en las que aparece el número, no
 solamente la primera.
-*/
-
-
+ */
 /**
  *
  * @author Maitane Navarro
@@ -20,6 +18,7 @@ solamente la primera.
 import java.util.Scanner;
 
 public class Ejercicio13Ampliado {
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

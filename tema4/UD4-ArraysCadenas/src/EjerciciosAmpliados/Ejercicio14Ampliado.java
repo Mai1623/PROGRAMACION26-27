@@ -8,8 +8,7 @@ Desarrolla un programa que:
     Muestre el resultado.
     Permita cambiar el número buscado.
 Ampliación: mostrar cuántas veces aparece cada uno de los números 2, 5, 8 y 9.
-*/
-
+ */
 /**
  *
  * @author Maitane Navarro
@@ -17,6 +16,7 @@ Ampliación: mostrar cuántas veces aparece cada uno de los números 2, 5, 8 y 9
 import java.util.Scanner;
 
 public class Ejercicio14Ampliado {
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
@@ -45,7 +45,6 @@ public class Ejercicio14Ampliado {
         System.out.println("El número " + buscar + " aparece " + contador + " veces.");
 
         // AMPLIACIÓN: contar cuántas veces aparece cada número
-
         // Crear un array con los números que queremos buscar
         int[] buscarNumeros = {2, 5, 8, 9};
 
@@ -67,8 +66,8 @@ public class Ejercicio14Ampliado {
             }
 
             // Mostrar cuántas veces aparece cada número
-            System.out.println("El número " + buscarNumeros[i] +
-                    " aparece " + contadorAmpliacion + " veces.");
+            System.out.println("El número " + buscarNumeros[i]
+                    + " aparece " + contadorAmpliacion + " veces.");
         }
     }
 }

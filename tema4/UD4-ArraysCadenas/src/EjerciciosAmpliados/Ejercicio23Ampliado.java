@@ -9,16 +9,15 @@ Solicita al usuario:
 Construye y muestra el nombre completo.
 Después, muestra el número total de caracteres.
 Ampliación: muestra el nombre completo en mayúsculas y minúsculas, sin modificar la cadena original.
-*/
-
+ */
 /**
  *
  * @author mai_n
  */
-
 import java.util.Scanner;
 
 public class Ejercicio23Ampliado {
+
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
@@ -53,4 +52,3 @@ public class Ejercicio23Ampliado {
 
     }
 }
-

@@ -10,31 +10,30 @@ Requisitos:
     Recorrer el array.
     Mostrar un mensaje indicando si se ha encontrado.
 Ampliación: solicitar el número por teclado utilizando Scanner.
-*/
-
+ */
 /**
  *
  * @author Maitane Navarro
  */
-
 import java.util.Scanner;
 
 public class Ejercicio12Ampliado {
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
         // Crear un array de enteros.
         int[] numeros = {12, 5, 8, 21, 4, 16, 9};
-    
+
         // Ampliacion: Solicitar al usuario el número que quiere buscar
         System.out.println("Introduce el número que quieres buscar:");
 
         // Guardar el número introducido por teclado en una variable
         int buscar = teclado.nextInt();
-        
+
         // Crear otra variable para ver si esta encontrado
         boolean encontrado = false;
-        
+
         // Recorrer el array para buscar el número
         for (int i = 0; i < numeros.length; i++) {
 
@@ -47,7 +46,7 @@ public class Ejercicio12Ampliado {
             }
         }
         // Mostrar un mensaje indicando si se ha encontrado.
-        if (encontrado = true){
+        if (encontrado = true) {
             System.out.println("El numero ha sido encontrado");
         } else {
             System.out.println("El numero no ha sido encontrado");

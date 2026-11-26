@@ -5,8 +5,9 @@
 
 /**
  *
- * @author mai_n
+ * @author Maitane Navarro
  */
+
 public class DemostracionString {
     public static void main(String[] args){
         String texto = "Programacion Java";

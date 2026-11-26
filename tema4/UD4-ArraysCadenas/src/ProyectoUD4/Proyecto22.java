@@ -4,12 +4,10 @@ package ProyectoUD4;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
 /**
  *
- * @author 06_1DAW
+ * @author Maitane Navarro y Miguel Ángel
  */
-
 import java.util.Scanner;
 
 public class Proyecto22 {
@@ -22,7 +20,6 @@ public class Proyecto22 {
         }
     }
 
-    
     //calcular la nota media
     public static double calcularMedia(double[] notas) {
         double suma = 0;
@@ -51,7 +48,6 @@ public class Proyecto22 {
     // calcular la nota minima
     public static double calcularMinimo(double[] notas) {
         double minima = notas[0];
-        
         // recorrido de notas y encontrar la nota minima
         for (int i = 0; i < notas.length; i++) {
             if (notas[i] < minima) {
@@ -61,10 +57,12 @@ public class Proyecto22 {
 
         return minima;
     }
+
+
     // contar los aprobados
     public static int contarAprobados(double[] notas) {
         int aprobados = 0;
-         
+
         // recorrido de notas hasta encontrar las mayores de 5
         for (int i = 0; i < notas.length; i++) {
             if (notas[i] >= 5) {
@@ -74,11 +72,12 @@ public class Proyecto22 {
 
         return aprobados;
     }
-     
+
+
     // contar los suspensos
     public static int contarSuspensos(double[] notas) {
         int suspensos = 0;
-        
+
         //reccorrido de notas hasta encontrar las menores de 5
         for (int i = 0; i < notas.length; i++) {
             if (notas[i] < 5) {
@@ -127,21 +126,20 @@ public class Proyecto22 {
     // contar las vocales del nombre
     public static int contarVocales(String texto) {
         int vocales = 0;
-        
+
         // pasar de mayusculas a minusculas
         texto = texto.toLowerCase();
-            
+
         // recorrido por nombres contando vocales
         for (int i = 0; i < texto.length(); i++) {
             // contar las letras de un nombre
             char letra = texto.charAt(i);
 
-
-            if (letra == 'a' || letra == 'e' ||
-                letra == 'i' || letra == 'o' ||
-                letra == 'u' || letra == 'á' ||
-                letra == 'é' || letra == 'í' ||
-                letra == 'ó' || letra == 'ú') {
+            if (letra == 'a' || letra == 'e'
+                    || letra == 'i' || letra == 'o'
+                    || letra == 'u' || letra == 'á'
+                    || letra == 'é' || letra == 'í'
+                    || letra == 'ó' || letra == 'ú') {
 
                 vocales++;
             }
