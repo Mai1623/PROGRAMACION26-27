@@ -1,11 +1,11 @@
 /**
-Mis cinco números
-    Crea un programa que:
-    Declare un array de cinco números enteros.
-    Inicialice el array con cinco valores.
-    Muestre todos los elementos.
-    Modifique el tercer elemento.
-    Vuelva a mostrar el array.
+    Mis cinco números
+        Crea un programa que:
+        Declare un array de cinco números enteros.
+        Inicialice el array con cinco valores.
+        Muestre todos los elementos.
+        Modifique el tercer elemento.
+        Vuelva a mostrar el array.
 */
 
 /**
